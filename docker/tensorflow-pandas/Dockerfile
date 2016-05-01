@@ -12,6 +12,6 @@ EXPOSE 6006
 # IPython
 EXPOSE 8888
 
-WORKDIR "/notebooks"
+WORKDIR "/workspace"
 
 CMD ["/run_jupyter.sh"]
